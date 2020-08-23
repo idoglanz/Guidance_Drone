@@ -8,6 +8,8 @@ airsim_dir_path = str(Path(os.getcwd()).parent) + '/AirSim/PythonClient/'
 sys.path.append(airsim_dir_path)
 from airsim import *
 
+# import setup_path
+
 
 def test_drone():
     client = MultirotorClient()
